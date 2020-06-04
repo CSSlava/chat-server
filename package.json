@@ -1,0 +1,14 @@
+{
+  "name": "chat-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/CSSlava/chat-server.git",
+  "author": "Viacheslav <ashtubee@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "json-server --watch db.json"
+  },
+  "devDependencies": {
+    "json-server": "^0.16.1"
+  }
+}
